@@ -47,8 +47,8 @@ a.download-button {
 p.lead {
     font-size:22px;
     /*{#            font-family: 'Lato', sans-serif;#}*/
-    /*{#            font-family: Arial, sans-serif;#}*/
-    /*{#            font-family: "Sonus-Light", sans-serif;#}*/
+               font-family: Arial, sans-serif;
+    /*font-family: "Sonus-Light", sans-serif;*/
 }
 body {
     /*background-color: rgb(33, 162, 148);*/
