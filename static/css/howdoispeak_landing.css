@@ -3,6 +3,7 @@
 }
 
 body {
+      font-family: Times New Roman;
     /*padding-left:35px;*/
 }
 @media(max-width:767px) {
@@ -24,6 +25,7 @@ a.landing-button {
 }
 a.download-button {
     margin-right:40px;
+    margin-left: 20px;
 }
 
 .lead {
@@ -43,11 +45,13 @@ a.download-button {
     margin-top: 47px;
     margin-bottom: 42px;
     float:left;
+      font-family: Times New Roman;
 }
 p.lead {
     font-size:22px;
+    font-family: Times New Roman;
     /*{#            font-family: 'Lato', sans-serif;#}*/
-               font-family: Arial, sans-serif;
+               /*font-family: Arial, sans-serif;*/
     /*font-family: "Sonus-Light", sans-serif;*/
 }
 body {
