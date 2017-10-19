@@ -1,0 +1,24 @@
+
+
+.intro-about p {
+    text-align:left;
+    max-width:600px;
+    margin:auto;
+    font-family:"Times New Roman";
+    margin-top:30px;
+}
+
+.intro-ul {
+    font-size:20px;
+    font-family:"Times New Roman";
+    /*padding-left:200px;*/
+    width:600px;
+    text-align:left;
+    margin:auto;
+}
+
+.strong-warning {
+    margin-top:20px;
+}
+
+
