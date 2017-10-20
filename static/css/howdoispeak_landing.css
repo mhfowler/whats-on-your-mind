@@ -111,7 +111,7 @@ a.black-link:hover {
     margin-top:55px;
 }
 
-.btn-outline {
+a.btn-outline {
     color: black;
     border-color: black;
     text-decoration: none;
@@ -119,4 +119,11 @@ a.black-link:hover {
 .btn-outline:hover {
     color: black;
     border-color: black;
+}
+a.btn-outline:visited:hover {
+    border-color: black;
+    color: black;
+}
+a.btn-outline i {
+    color: black;
 }
