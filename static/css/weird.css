@@ -1,11 +1,12 @@
-.contributors {
-    column-count: 4;
-    column-width: 200px;
-    column-gap: 20px;
-}
-
 .upper-part {
     border: 1px solid black;
+    border-left: none;
+    border-top:none;
+    padding-left: 50px;
+        max-width: 700px;   max-width: 565px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-right: 40px;
 }
 
 p.author {
@@ -33,7 +34,7 @@ p {
 }
 
 .main-div {
-    padding:20px; max-width: 550px; margin-right:100px; float:left;
+ margin-right:100px; float:left;
 }
 
 body {
@@ -47,11 +48,9 @@ body {
     /*flex-direction: column;*/
     /*margin: auto;*/
     /*margin-top: 20px;*/
-        margin-left: 150px;
-    margin-top: 100px;
     /*padding-left:35px;*/
     /*max-width: 100%;*/
-    max-width: 700px;
+
       margin-top: 4%;
     margin-left: 7%;
     padding-bottom: 50px;
@@ -59,6 +58,8 @@ body {
     /*flex-direction: row;*/
     float: left;
     margin-top: 45px;
+    margin-left: 0px;
+    margin-top:0px;
     /*margin: auto;*/
     /*padding: 20px;*/
     /*margin-left: 45px;*/
