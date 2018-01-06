@@ -16,7 +16,12 @@
     height: 19px;
     position: relative;
     /*left: -76px;*/
-    margin-top: 175px;
+    margin-top: 150px;
+}
+
+.intro-writeup {
+    padding-top: 50px;
+    padding-bottom: 50px;
 }
 
 
@@ -57,7 +62,7 @@
 p.author {
     font-style:italic;
     /*margin-top: 70px;*/
-    margin-top: 175px;
+    margin-top: 150px;
 }
 p {
     font-size: 18px;
@@ -123,8 +128,15 @@ body {
 
     .main-div {
         padding:20px;
-        width: 100%;
-        margin-right: 0px;
+        width: 90%;
+        margin:auto;
+    }
+    .intro-section {
+        width: 75%
+    }
+
+    .post-break {
+        height: 12px;
     }
 }
 
