@@ -1,8 +1,30 @@
+.page-break {
+    width: 700px;
+    margin:auto;
+    margin-top: 10px;
+    max-width: 100%;
+}
+.page-break img {
+    width: 100%;
+}
+
+.post-break {
+     width: 100%;
+    margin: auto;
+    background-image: url(/static/img/pb.png);
+    background-size: cover;
+    height: 19px;
+    position: relative;
+    /*left: -76px;*/
+    margin-top: 175px;
+}
+
+
 .top-part {
-    border-bottom: 1px solid black;
+    /*border-bottom: 1px solid black;*/
     width: 100%;
     padding-bottom: 40px;
-    padding-top: 30px;
+    padding-top: 100px;
     /*padding-left: 40px;*/
 }
 .title-text {
@@ -11,7 +33,7 @@
 }
 
 .subtitle {
-    margin-top: 15px;
+    margin-top: 20px;
 }
 
 .sticky {
@@ -34,7 +56,8 @@
 
 p.author {
     font-style:italic;
-    margin-top: 70px;
+    /*margin-top: 70px;*/
+    margin-top: 175px;
 }
 p {
     font-size: 18px;
@@ -58,9 +81,8 @@ p {
 }
 
 .intro-section {
-    margin-top: 200px;
     width: 100%;
-    border-bottom: 1px solid black;
+    /*border-bottom: 1px solid black;*/
     padding-bottom: 40px;
 }
 
@@ -95,8 +117,6 @@ body {
 }
 @media(max-width:800px) {
     body {
-        padding-left: 20px;
-        padding-right: 20px;
         margin-left:0px;
         margin-top: 0px;
     }
