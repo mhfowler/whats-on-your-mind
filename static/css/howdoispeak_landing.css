@@ -136,7 +136,8 @@ body {
     }
 
     .post-break {
-        height: 12px;
+        background-size: cover;
+        width: 100%;
     }
 }
 
