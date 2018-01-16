@@ -1,0 +1,270 @@
+.page-break {
+    width: 700px;
+    margin:auto;
+    margin-top: 10px;
+    max-width: 100%;
+}
+.page-break img {
+    width: 100%;
+}
+
+.post-break {
+     width: 100%;
+    margin: auto;
+    background-image: url(/static/img/pb.png);
+    background-size: cover;
+    height: 19px;
+    position: relative;
+    /*left: -76px;*/
+    margin-top: 150px;
+}
+
+.intro-writeup {
+    padding-top: 30px;
+    padding-bottom: 42px;
+    margin-bottom: 0px;
+}
+
+
+.top-part {
+    /*border-bottom: 1px solid black;*/
+    width: 100%;
+    padding-bottom: 40px;
+    padding-top: 100px;
+    /*padding-left: 40px;*/
+}
+.title-text {
+    max-width: 550px;
+    margin:auto;
+    /*font-family: 'Times New Roman'*/
+}
+
+.title-main {
+    /*font-family: 'Asul', sans-serif;*/
+    /*font-weight: bold;*/
+}
+
+.subtitle {
+    margin-top: 20px;
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+       background-color: #f7f7f7;
+}
+
+
+.contributors {
+    column-count: 4;
+    column-width: 200px;
+    column-gap: 20px;
+}
+
+.upper-part {
+    border: 1px solid black;
+}
+
+p.author {
+    font-style:italic;
+    /*margin-top: 70px;*/
+    margin-top: 150px;
+}
+
+.download-button {
+    border-radius: 0px;
+}
+
+.main-div div {
+    margin-bottom: 20px;
+}
+
+
+.subheader {
+    font-style: italic;
+}
+
+.intro {
+    margin-top: 100px;
+}
+
+.intro-section {
+    width: 100%;
+    /*border-bottom: 1px solid black;*/
+    /*padding-bottom: 40px;*/
+}
+
+.main-div {
+    max-width: 550px; margin:auto;
+}
+
+body {
+      font-family: Times New Roman;
+    /*font-family: 'Helvetica Neue', serif;*/
+    /*font-family: 'Work Sans', serif;*/
+    /*font-family: 'PT Serif', serif;*/
+     /*font-family:s 'Sorts Mill Goudy', serif;*/
+    /*font-size: 18px;*/
+    font-size: 16px;
+    /*padding-top: 20px;*/
+    /*padding-left: 30px;*/
+        /*display: flex;*/
+    /*align-items: center;*/
+    /*justify-content: center;*/
+    /*flex-direction: column;*/
+    /*margin: auto;*/
+    /*margin-top: 20px;*/
+    /*padding-left:35px;*/
+    /*max-width: 100%;*/
+    padding-bottom: 50px;
+    width: 100%;
+    /*display:flex;*/
+    /*flex-direction: row;*/
+    float: left;
+    /*margin: auto;*/
+    /*padding: 20px;*/
+    /*margin-left: 45px;*/
+    /*margin-top: 20px;*/
+    margin-left: 0px;
+    margin-top: 0px;
+}
+@media(max-width:800px) {
+    body {
+        margin-left:0px;
+        margin-top: 0px;
+    }
+
+    .main-div {
+        padding:20px;
+        width: 90%;
+        margin:auto;
+    }
+    .intro-section {
+        width: 75%
+    }
+
+    .post-break {
+        background-size: 100% 100%;
+        width: 100%;
+    }
+    .top-part {
+        padding-top: 25px;
+    }
+}
+
+@media(max-width:1200px) {
+    .how-it-works {
+        max-width: 600px;
+    }
+}
+
+.how-it-works {
+    max-width: 500px;
+}
+
+.right-para {
+    margin-bottom: 50px;
+}
+
+
+.old-section.section-wrapper {
+    padding-top:0px;
+}
+
+a.landing-button {
+    /*margin-left:40px;*/
+    width:200px;
+    /*margin-left:20px;*/
+}
+a.download-button {
+    margin-right:40px;
+}
+
+.lead {
+    margin-bottom:25px;
+}
+#hero {
+    padding-bottom:10px;
+}
+.face-pic {
+    margin-left:20%;
+}
+.face-pic-wrapper {
+    margin-top:140px;
+    margin-bottom:125px;
+}
+.page-title {
+    margin-top: 47px;
+    margin-bottom: 42px;
+    float:left;
+      font-family: Times New Roman;
+}
+p.lead {
+    font-size:22px;
+    font-family: Times New Roman;
+    /*{#            font-family: 'Lato', sans-serif;#}*/
+               /*font-family: Arial, sans-serif;*/
+    /*font-family: "Sonus-Light", sans-serif;*/
+}
+body {
+    /*background-color: rgb(33, 162, 148);*/
+    /*color: white;*/
+    /*background-color: white;*/
+    background-color: #f7f7f7;
+    color: black;
+    /*{#            font-family: "Sonus-Light", sans-serif;#}*/
+}
+a {
+    color:black;
+    text-decoration: underline;
+}
+a:visited {
+    /*color:rgb(138, 208, 255);*/
+}
+a:hover {
+    color:darkblue;
+}
+a:visited:hover {
+    color:darkblue;
+}
+.icn-img {
+    width:60px;
+    margin-right:10px;
+}
+a.black-link {
+    color:black;
+}
+a.black-link:hover {
+    text-decoration:underline;
+}
+.top-download {
+    float:right;
+    margin-top: 33px;
+}
+.page-top {
+    width:100%;
+    height:136px;
+}
+
+
+.privacy-disclaimer {
+    margin-top:55px;
+}
+
+a.btn-outline {
+    color: black;
+    border-color: black;
+    text-decoration: none;
+}
+.btn-outline:hover {
+    color: black;
+    border-color: black;
+}
+a.btn-outline:visited:hover {
+    border-color: black;
+    color: black;
+}
+a.btn-outline i {
+    color: black;
+}
